@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "sttntts"
+version = "0.1.0"
+description = ""
+authors = ["Chaiwat Saehui <art_of_destroy@hotmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+speechrecognition = "^3.10.4"
+pyaudio = "0.2.14"
+google-cloud-speech = "^2.26.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
